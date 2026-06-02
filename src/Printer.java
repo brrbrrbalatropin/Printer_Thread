@@ -15,7 +15,7 @@ public class Printer {
         }
         public static void main(String[] args) throws InterruptedException {
             long max = 50000000;
-            int numThreads = 10000;
+            int numThreads = 16;
             long range = max/numThreads;
             Thread[] threads = new Thread[numThreads];
 
