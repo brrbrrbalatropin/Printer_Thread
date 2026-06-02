@@ -13,7 +13,7 @@ func printRange(start, end int64) {
 
 func main() {
 	var maxNum int64 = 50_000_000
-	var numGoRoutines int64 = 10000
+	var numGoRoutines int64 = 16
 	rangePerGoRoutine := maxNum / numGoRoutines
 
 	inicio := time.Now()
